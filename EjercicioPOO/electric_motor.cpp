@@ -12,7 +12,7 @@ electric_motor::electric_motor(int theNum_batteries, int theHorsepower)
 	setHorsepower(theHorsepower);
 }
 
-void electric_motor::setNum_batteries(theNum_batteries)
+void electric_motor::setNum_batteries(int theNum_batteries)
 {
 	num_batteries = theNum_batteries;
 }

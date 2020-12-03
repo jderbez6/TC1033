@@ -19,7 +19,7 @@ gas_car::gas_car(int theMax_v, int theYear, string theBrand, string theModel, ga
 	setBrand(theBrand);
 	setModel(theModel);
 	setMotor(theMotor);
-
+}
 void gas_car::setMotor(gas_motor theMotor)
 {
 	motor = theMotor;

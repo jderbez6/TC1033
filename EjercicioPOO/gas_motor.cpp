@@ -2,7 +2,7 @@
 
 gas_motor::gas_motor()
 {
-	setTheNum_cylinders(6);
+	setNum_cylinders(6);
 	setHorsepower(200);
 }
 
@@ -12,7 +12,7 @@ gas_motor::gas_motor(int theNum_cylinders, int theHorsepower)
 	setHorsepower(theHorsepower);
 }
 
-void gas_motor::setNum_cylinders(theNum_cylinders)
+void gas_motor::setNum_cylinders(int theNum_cylinders)
 {
 	num_cylinders = theNum_cylinders;
 }
