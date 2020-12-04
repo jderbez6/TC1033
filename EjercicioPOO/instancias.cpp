@@ -5,9 +5,13 @@
 using namespace std;
 int main()
 {
-	electric_motor MotorElectrico(6, 200);
-	electric_car MiCocheElectrico(110, 2016, "Toyota", "Corolla", MotorElectrico);
-	gas_car MiCocheNormal();
+	electric_motor MotorElectrico; (6, 200);
+	electric_car MiCocheElectrico(150, 2018, "Tesla", "Model 3", MotorElectrico);
+	gas_car MiCocheNormal;
 	
-	cout << "El año de mi coche elecico es" << MiCocheElectrico.getYear() << endl;
+	cout << "El año de mi coche electrico es " << MiCocheElectrico.getYear() << endl;
+	cout << "Su marca es " << MiCocheElectrico.getBrand() << endl;
+	cout << "El modelo de mi coche normal es " << MiCocheNormal.getModel() << endl;
+	cout << "Y su velocidad maxima es " << MiCocheNormal.getMax_v() << endl;
+	
 }
